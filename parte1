@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+<meta content="text/html" charset="UTF-8" />
+<title>Início | Descubra</title>
+<link rel="stylesheet" type="text/css" href="descubra.css" />
+</head>
+<body background="mario.gif">
+  <header>O que é, o que é?</header>
+  <section>
+      <div id="div1">
+            Parte 1
+      </div>
+      <div id="div2">
+       <img style="border-radius: 525%" width="150" height="150" src="looping.gif" alt="loop">
+      </div>
+  </section>
+  <article>
+      <div id="div3">
+            <form>
+                  <div>
+                    <input type = "radio" id = "resposta1" nome = "resposta1" value = "resposta1">Hipnose
+                    <input type = "radio" id = "resposta2" nome = "resposta2" value = "resposta2">Loop
+                    <input type = "radio" id = "resposta3" nome = "resposta3" value = "resposta3">Gira-gira
+                  </div>
+                  <div>
+                    <button type = "submit"> Responder </button>
+                  </div>
+                </form>
+      </div>
+  </article>
+
+<footer>&copy; Desenvolvido por Caio Soares | 26/04/2021</footer>
+<script src="descubra.js"></script>
+</body>
+</html>
